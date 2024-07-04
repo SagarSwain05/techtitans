@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!---css-->
+<link rel="stylesheet" href="page.css">
+<!----font awesom-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!----box icon-->
+    <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+<!--navbar-->
+<header>
+    
+    <a href="#" class="logo">
+        <img src="logo.png" alt="">
+
+    </a>
+    <i class='bx bx-menu' id="menu-icon"></i>
+
+<div class="full_page">
+    <ul class="navbar">
+     <li><a href="#home">Home</a></li>
+     <li><a href="#calculation">calculation</a></li>
+     <li><a href="#Daily task">Daily task</a></li>
+     <li><a href="#Reward">Reward</a></li>
+     <li><a href="#about us">about us</a></li>
+     
+    <div class="full_page">
+
+        <li><button class='loginbtn' onclick="document.getElementById('login-form').style.display='block'" style="width:auto;">Login</button></li>
+    </ul>
+</nav>
+</div>
+<div id='login-form'class='login-page'>
+<div class="form-box">
+    <div class='button-box'>
+        <div id='btn'></div>
+        <button type='button'onclick='login()'class='toggle-btn'>Log In</button>
+        <button type='button'onclick='register()'class='toggle-btn'>Register</button>
+    </div>
+    <form id='login' class='input-group-login'>
+        <input type='text'class='input-field'placeholder='Email Id' required >
+<input type='password'class='input-field'placeholder='Enter Password' required>
+<input type='checkbox'class='check-box'><span>Remember Password</span>
+<button type='submit'class='submit-btn'>Log in</button>
+</form>
+<form id='register' class='input-group-register'>
+ <input type='text'class='input-field'placeholder='First Name' required>
+ <input type='text'class='input-field'placeholder='Last Name ' required>
+ <input type='email'class='input-field'placeholder='Email Id' required>
+ <input type='password'class='input-field'placeholder='Enter Password' required>
+ <input type='password'class='input-field'placeholder='Confirm Password'  required>
+ <input type='checkbox'class='check-box'><span>I agree to the terms and                                                   conditions</span>
+        <button type='submit'class='submit-btn'>Register</button>
+ </form>
+</div>
+</div>
+</div>
+<script>
+var x=document.getElementById('login');
+var y=document.getElementById('register');
+var z=document.getElementById('btn');
+function register()
+{
+x.style.left='-400px';
+y.style.left='50px';
+z.style.left='110px';
+}
+function login()
+{
+x.style.left='50px';
+y.style.left='450px';
+z.style.left='0px';
+}
+</script>
+<script>
+var modal = document.getElementById('login-form');
+window.onclick = function(event) 
+{
+if (event.target == modal) 
+{
+    modal.style.display = "none";
+}
+}
+</script>
+
+   
+</header>
+     </ul>
+     </header>
+     <section class="home" id="home">
+        <div class="home-text">
+            <i class="uli uli-times form_close"></i>
+            <h3>Welcome To</h3>
+            <h1>Zero Carbon <br></h1>
+               <h4> Applying in daily life</h4>
+               <h5>Reduce your Carbon Footprint<i></i> </h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis aut quibusdam repudiandae.</p>
+            <a href="#" class="btn">learn more</a>
+        </div>
+        <div class="home-img">
+            <img src="world.png" alt="">
+        </div>
+     </section>
+     
+   
+    <div class="full_page">
+
+        <li><button class='loginbtn' onclick="document.getElementById('login-form').style.display='block'" style="width:auto;">Login</button></li>
+    </ul>
+</nav>
+</div>
+<div id='login-form'class='login-page'>
+<div class="form-box">
+    <div class='button-box'>
+        <div id='btn'></div>
+        <button type='button'onclick='login()'class='toggle-btn'>Log In</button>
+        <button type='button'onclick='register()'class='toggle-btn'>Register</button>
+    </div>
+    <form id='login' class='input-group-login'>
+        <input type='text'class='input-field'placeholder='Email Id' required >
+<input type='password'class='input-field'placeholder='Enter Password' required>
+<input type='checkbox'class='check-box'><span>Remember Password</span>
+<button type='submit'class='submit-btn'>Log in</button>
+</form>
+<form id='register' class='input-group-register'>
+ <input type='text'class='input-field'placeholder='First Name' required>
+ <input type='text'class='input-field'placeholder='Last Name ' required>
+ <input type='email'class='input-field'placeholder='Email Id' required>
+ <input type='password'class='input-field'placeholder='Enter Password' required>
+ <input type='password'class='input-field'placeholder='Confirm Password'  required>
+ <input type='checkbox'class='check-box'><span>I agree to the terms and                                                   conditions</span>
+        <button type='submit'class='submit-btn'>Register</button>
+ </form>
+</div>
+</div>
+</div>
+<script>
+var x=document.getElementById('login');
+var y=document.getElementById('register');
+var z=document.getElementById('btn');
+function register()
+{
+x.style.left='-400px';
+y.style.left='50px';
+z.style.left='110px';
+}
+function login()
+{
+x.style.left='50px';
+y.style.left='450px';
+z.style.left='0px';
+}
+</script>
+<script>
+var modal = document.getElementById('login-form');
+window.onclick = function(event) 
+{
+if (event.target == modal) 
+{
+    modal.style.display = "none";
+}
+}
+</script>
+
+   
+</header>
+
+
+
+<!--calculation-->
+
+ 
+
+
+<!--daily task-->
+<div class="task">
+<h1 id="Daily task">Complete your Daily Task </h1>
+</div>
+<div class="hero">
+    <div class="container">
+        <div class="row">
+            
+            <p>Use less Power Consumption</p>
+            <label>
+                <input type="checkbox" >
+                <span></span>
+            </label>
+        </div>
+        <div class="row">
+            <p>Use less Plastic</p>
+            <label>
+                <input type="checkbox" >
+                <span></span>
+            </label>
+        </div>
+        <div class="row">
+            <p>Use public Transport</p>
+            <label>
+                <input type="checkbox" >
+                <span></span>
+            </label>
+        </div>
+        <div class="row">
+            <p>Use less energy</p>
+            <label>
+                <input type="checkbox" >
+                <span></span>
+            </label>
+        </div>
+        <div class="row">
+            <p>Plant a Tree / Care a Tree</p>
+            <label>
+                <input type="checkbox" >
+                <span></span>
+            </label>
+        </div>
+        <div class="row">
+            <p>Use Green Energies</p>
+            <label>
+                <input type="checkbox" >
+                <span></span>
+            </label>
+        </div>
+        <div class="row">
+            <p>Reduce Meat Consumption</p>
+            <label>
+                <input type="checkbox" >
+                <span></span>
+            </label>
+        </div>
+
+        <form id="submissionForm">
+
+
+          Have you Complete your tasks ?
+            
+            <input type="checkbox" id="myCheck" onclick="myFunction()">
+            <p id="text" style="display: none;">Task Completed</p>
+           
+         
+        </form>
+
+        <script>
+
+
+            function myFunction() {
+              var checkBox = document.getElementById("myCheck");
+              var text = document.getElementById("text");
+              if (checkBox.checked == true){
+                text.style.display = "block";
+              } else {
+                 text.style.display = "none";
+              }
+    
+            // Reset form
+            document.getElementById('submissionForm').reset();
+        }
+    </script>
+    
+
+        <form action="/action_page.php">
+            <input type="file" id="myFile" name="filename">
+            <input type="submit">
+          </form>
+       
+    </div>
+</div>
+
+<!--reward section -->
+
+    <div class="main">
+        <div class="left">
+            
+            <div class="name">
+                <h3 id="Reward">@ZeroCarbon</h3>
+            </div>
+            <div class="user-profile">
+                <div class="pic">
+                   <img src="hero-img[1].png" alt="profile-picture">
+                </div>
+                <span>@User_name</span><br>
+                <span>rank:- 19055796</span>
+                <div class="success-rate">
+                    <div class="progress">
+                        <div class="completed">
+                            <span>75%</span>
+                        </div>
+                    </div>
+                </div>
+                <span id="successrate">successrate</span>
+            </div>
+            <div class="discription">
+                <h5>you are __% away from</h5>
+                <h2>ZERO CARBON PERSON <i class="fa-solid fa-square-check" style="color: #6ded64;"></i></h2>
+            </div>
+        </div>
+        <div class="right">
+            <div class="left-child">
+                
+            </div>
+            <div class="right-child">
+                <h2>calander...</h2>
+                <div class="calander">
+                    
+                </div>
+                <div class="reward">
+                    <h2>Daily reward</h2>
+                    <div class="daily">
+                        <i class="fa-solid fa-star" style="color: #e1ff00;"></i>
+                        <i class="fa-solid fa-star" style="color: #e1ff00;"></i>
+                        <i class="fa-solid fa-star" style="color: #e1ff00;"></i>
+                        <i class="fa-solid fa-star" style="color: #e1ff00;"></i>
+                        <i class="fa-solid fa-star" style="color: #e1ff00;"></i>
+                    </div>
+                    <h2>Weekly reward</h2>
+                    <div class="weekly">
+                        <i class="fa-solid fa-star" style="color: #e1ff00;"></i>
+                        <i class="fa-solid fa-star" style="color: #e1ff00;"></i>
+                        <i class="fa-solid fa-star" style="color: #e1ff00;"></i>
+                    </div>
+                    <h2>Monthly</h2>
+                    <div class="monthly">
+                        <i class="fa-solid fa-star" style="color: #e1ff00;"></i>
+                        <i class="fa-solid fa-star" style="color: #e1ff00;"></i>
+                        <i class="fa-solid fa-star" style="color: #e1ff00;"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+<!----about us -->
+<section class="about" id="about">
+    <div class="about-img">
+        <img src="track3img3.jpg" alt="">
+    </div>
+    <div class="about-text">
+        <h2 id="about us">About us </h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis eveniet reprehenderit maxime exercitationem itaque.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis eveniet reprehenderit maxime exercitationem itaque.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis eveniet reprehenderit maxime exercitationem itaque.</p>
+        
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis eveniet reprehenderit maxime exercitationem itaque.</p>
+<a href="#" class="btn">Learn more</a>
+
+
+    </div>
+</section>
+
+<!--footer-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<footer class="site-footer">
+<div class="container">
+<div class="row">
+<div class="col-sm-12 col-md-6">
+<h6>What is Zero Carbon ..</h6>
+<p class="text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+</div>
+
+<div class="col-6 col-md-3">
+<h6>More about Zero carbon</h6>
+<ul class="footer-links ">
+<li><a href="#">About us</a></li>
+<li><a href="#">Contact us</a></li>
+<li><a href="#">Web Development</a></li>
+<li><a href="#">Terms&condition</a></li>
+<li><a href="#">Privacy Policy</a></li>
+<li><a href="#">Cooies Policy</a></li>
+</ul>
+</div>
+
+</div>
+<hr class="small">
+</div>
+<div class="container">
+<div class="row">
+<div class="col-md-8 col-sm-6 col-12">
+
+</div>
+<div class="col-md-4 col-sm-6 col-12">
+<ul class="social-icons">
+<li><a class="facebook" href="#"><i class="fab fa-facebook-f"></i></a></li>
+<li><a class="twitter" href="#"><i class="fab fa-twitter"></i></a></li>
+<li><a class="dribbble" href="#"><i class="fab fa-dribbble"></i></a></li>
+<li><a class="linkedin" href="#"><i class="fab fa-linkedin-in"></i></a></li>
+</ul>
+</div>
+</div>
+</div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+  
+<!-----Acknowlegment-->.
+
+
+
+
+    <!---java script link-->
+    <script src="script.js"></script>
+
+</body>
+</html>
