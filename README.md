@@ -1,1 +1,1 @@
-#This page is created during the Trithon competition 2023.
+# This page is created during the Trithon competition 2023.
