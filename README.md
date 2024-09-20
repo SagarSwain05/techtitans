@@ -1,1 +1,1 @@
-# Trithon Hackathon competition 2023.
+# Trithon Hackathon 2023.
